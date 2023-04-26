@@ -1,0 +1,119 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin: 0;
+}
+
+#left-container {
+    width: 40vw;
+    height: 100vh;
+    background-image: url(images/luxuryholiday.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#black-strip {
+    width: 40vw;
+    height: 25vh;
+    background-color: black;
+    margin-top: 30vh;
+    opacity: 0.7;
+}
+
+#logo {
+    max-width: 80%;
+    max-height: 100%;
+    margin: 0vw 12vw 0vw;
+}
+
+#right-container {
+    width: 60vw;
+    height: 100vh;
+    background-color: #F9FAFB;
+}
+
+#herotext {
+    padding: 15vh 5vh 2vh 2vh;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15pt;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16pt;
+}
+
+form {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    padding: 1vh 5vh 5vh; 
+    box-shadow: 0px 5px 12px 0px rgba(232, 232, 232, 0.9);
+    background-color: white;
+}
+
+#input-container {
+    position: relative;
+    display: inline-block;
+    width: 20vw;
+    padding: 1vw 5vw 1vw 0vw;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    height: 3vh;
+    width: 20vw;
+    margin-top: 0.5vh;
+}
+
+input:focus {
+    border-color: blue;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#create-account {
+    position: relative;
+    width: 10vw;
+    height: 5vh;
+    left: 3.3vw;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+    background-color:#D6B772;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+#create-account:active {
+    transform: translateX(3px) translateY(3px);
+    box-shadow: none;
+}
+
+#create-account:hover {
+    background-color: #BC8C40;
+}
+
+#login {
+    position: relative;
+    font-size: 12pt;
+    left: 3.3vw;
+    top: 2.5vh;
+}
+
+a{
+    color: #A1631F;
+}
